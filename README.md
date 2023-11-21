@@ -3,7 +3,7 @@
 
 Languages and Tools used:
 
-<img src="./images/C.png" alt="C" height="40" width="35"> &nbsp; <img src="./images/C++.png" alt="C++" height="40" width="38">
+<a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="./images/C.png" alt="C" height="40" width="35"></a> &nbsp; <a href="https://en.wikipedia.org/wiki/C%2B%2B"><img src="./images/C++.png" alt="C++" height="40" width="38"></a>
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
@@ -24,7 +24,7 @@ Languages and Tools used:
 </tr>
 </table>
 
-This repository contains implementations of various data structures and algorithms primarily written in C/C++.
+This repository contains implementations of various data structures and algorithms primarily written in C/C++. The problems are taken from [Leetcode](https://leetcode.com).
 
 ## Folder Structure
 
