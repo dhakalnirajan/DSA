@@ -27,6 +27,7 @@ This repository contains implementations of various data structures and algorith
 
 ## Folder Structure
 
+- `src`: Contains the two directories `data_structures` and `algorithms`.
 - `data_structures`: Contains implementations of various data structures.
 - `algorithms`: Contains implementations of various algorithms.
 - `utils`: Contains utility functions used in the implementations.
