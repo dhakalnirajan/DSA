@@ -1,4 +1,3 @@
-
 # Data Structures and Algorithms
 
 Languages and Tools used:
@@ -9,22 +8,22 @@ Languages and Tools used:
 
 [![Data Structures](https://img.shields.io/badge/Data%20Structures-Yes-brightgreen.svg)](https://en.wikipedia.org/wiki/Data_structure)
 [![Algorithms](https://img.shields.io/badge/Algorithms-Yes-brightgreen.svg)](https://en.wikipedia.org/wiki/Algorithm)
-[![Author](https://img.shields.io/badge/Author/Maintainer_-Nirajan_Dhakal-blue)](https://github.com/dhakalnirajan)
+[![Author](https://img.shields.io/badge/Author/Maintainer-Nirajan_Dhakal-blue)](https://github.com/dhakalnirajan)
 
-<br>
+<br/>
 
-<table border="1">
+<table>
 <tr>
-<th><center>Author's Name</center></th>
-<th><center>Author's Profile</center></th>
+<th align="center">Author's Name</th>
+<th align="center">Author's Profile</th>
 </tr>
 <tr>
-<td><center>NIRAJAN DHAKAL</center></td>
-<td><a href="https://github.com/dhakalnirajan" alt="nirajan badge image"><center><img src="./images/nirajan.svg"></center></a></td>
+<td align="center">NIRAJAN DHAKAL</td>
+<td align="center"><a href="https://github.com/dhakalnirajan" alt="nirajan badge image"><img src="./images/nirajan.svg"></a></td>
 </tr>
 </table>
 
-This repository contains implementations of various data structures and algorithms primarily written in C/C++. The problems are taken from [Leetcode](https://leetcode.com).
+This repository contains implementations of various data structures and algorithms primarily written in C/C++. The problems are taken from [LeetCode](https://leetcode.com).
 
 ## Folder Structure
 
