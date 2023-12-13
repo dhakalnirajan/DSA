@@ -38,7 +38,8 @@ Step-5: End
 
 #define size 5
 
-int main(){
+int main()
+{
     // Declaration of variables
     int stack[size];
     int data, choice, i;
