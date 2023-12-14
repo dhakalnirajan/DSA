@@ -1,21 +1,63 @@
-/*
-INFIX TO POSTFIX CONVERSION ALGORITHM
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-1. Initialize a stack and output list as empty.
+#define MAX_SIZE 100
 
-2. Read each symbol (operator and operand) from the infix expression.
+int isOperator(char ch) {
+    return (ch == '+' || ch == '-' || ch == '*' || ch == '/');
+}
 
-    a. If the symbol is an operand, then append it into the output list.
+int precedence(char ch) {
+    if (ch == '+' || ch == '-')
+        return 1;
+    if (ch == '*' || ch == '/')
+        return 2;
+    return 0;
+}
 
-    b. If the symbol is an operator and the stack is empty or the operator has highest
-    precedence than the top operator of the stack, then PUSH the operator onto the stack.
+void infixToPostfix(char infix[], char postfix[]) {
+    char stack[MAX_SIZE];
+    int top = -1;
+    int i, j;
 
-    c. Whenever an opening parenthesis encounters in the stack, then we cannot POP all the
-    operators from the stack until its counterpart (closing parenthesis) is available on the stack.
+    for (i = 0, j = 0; infix[i] != '\0'; i++) {
+        if (isalnum(infix[i])) {
+            postfix[j++] = infix[i];
+        } else if (infix[i] == '(') {
+            stack[++top] = infix[i];
+        } else if (infix[i] == ')') {
+            while (top != -1 && stack[top] != '(') {
+                postfix[j++] = stack[top--];
+            }
+            if (top != -1 && stack[top] == '(') {
+                top--;
+            }
+        } else if (isOperator(infix[i])) {
+            while (top != -1 && precedence(stack[top]) >= precedence(infix[i])) {
+                postfix[j++] = stack[top--];
+            }
+            stack[++top] = infix[i];
+        }
+    }
 
-3. Repeat step 2 for every symbols of infix expression.
+    while (top != -1) {
+        postfix[j++] = stack[top--];
+    }
 
-4. If all the symbols have been read from infix expression and the stack is not empty, then POP
-    all the symbols from the stack and append them to the output list.
+    postfix[j] = '\0';
+}
 
-*/
+int main() {
+    char infix[MAX_SIZE];
+    char postfix[MAX_SIZE];
+
+    printf("Enter an infix expression: ");
+    gets(infix);
+
+    infixToPostfix(infix, postfix);
+
+    printf("Postfix expression: %s\n", postfix);
+
+    return 0;
+}

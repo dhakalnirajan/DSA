@@ -5,3 +5,5 @@
 The Table of Content for the documentation of the implemented Data Structure and Algorithm is below:
 
 1. Stack Implementation Documentation: [Here](./stack_documentation.md).
+2. Infix to Postfix Conversion Algorithm Documentation: [Here](./infix_to_postfix_algorithm_docs.md).
+3. Postfix Expression Evaluation Example Documentation: [Here](./postfix-expression-evaluation-algorithm.md)
