@@ -16,5 +16,4 @@
 9. Read +, which is an operator, so pop top two elements from the stack (3 & 45)
     and apply + operator on 3 & 45 i.e. 3 + 45 = 48, push 48 on the top of the
     stack.
-10. Next is *, so pop top two elements from the stack (48 & 6) and apply*
-    operator on 48 & 6 i.e. 48 * 6 = 288, push 288 on the top of the stack.
+10. Next is*, which is an operator, so pop top two elements from the stack (48 & 6) and apply* operator on 48 & 6 i.e. 48 * 6 = 288, push 288 on the top of the stack.
