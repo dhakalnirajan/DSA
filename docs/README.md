@@ -7,3 +7,6 @@ The Table of Content for the documentation of the implemented Data Structure and
 1. Stack Implementation Documentation: [Here](./stack_documentation.md).
 2. Infix to Postfix Conversion Algorithm Documentation: [Here](./infix_to_postfix_algorithm_docs.md).
 3. Postfix Expression Evaluation Example Documentation: [Here](./postfix-expression-evaluation-algorithm.md)
+4. Linear Queue Implementation Documentation: [Here](./queue_documentation.md)
+5. Circular Queue Implementation Documentation: [Here](./circular_queue_documentation.md)
+6. Tower of Hanoi Implementation Documentation: [Here](./tower-of-hanoi.md)
