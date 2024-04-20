@@ -130,10 +130,10 @@ The algorithm was tested with three different scenarios: Easy Test, Medium Test,
 
 **Instructions to Run:**
 
-* C: `gcc nrisr.c -o nrisr;./nrisr`
-* C++: `g++ nrisr.cpp -o nrisr;./nrisr`
+* C: `gcc nrisr.c -o nrisr; ./nrisr`
+* C++: `g++ nrisr.cpp -o nrisr; ./nrisr`
 * Python: `python nrisr.py`
-* CUDA: `nvcc nrisr.cu -o nrisr;./nrisr`
+* CUDA: `nvcc nrisr.cu -o nrisr; ./nrisr`
 
 ### 4. SIMD-optimized ISR Algorithm
 
@@ -184,7 +184,7 @@ The GPU-optimized ISR algorithm is a parallel algorithm that uses Graphics Proce
 
 **Implementation:**
 
-* CUDA: [gpu_isr.cu](/gpu_isr.cu)
+* CUDA: [gpu-optim.cu](/gpu-optim.cu)
 
 **Test Performance:**
 
@@ -228,3 +228,7 @@ Performance Table
 | GPU-optimized ISR | 0.001ms, 1000 GFLOPS | 0.005ms, 200 GFLOPS | 0.01ms, 100 GFLOPS |
 
 This table provides a concise summary of the performance of each ISR algorithm, making it easy to compare their execution times and GFLOPS ratings.
+
+<!-- Add images\plot.png image -->
+
+<img src="plot.png" height=500 width=700>
